@@ -1,1 +1,92 @@
 /* My Times */
+
+body {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Header Logo */
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid black;
+  background-color: white;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.logo span {
+  color: MediumAquamarine;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
+
+/* Header Nav */
+
+header nav {
+  padding-right: 40px;
+
+}
+
+nav {
+  display: block;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+  color: black;
+}
+
+/* Main Content Container */
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.content {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+div {
+  border: 1px solid black;
+  display: block;
+}
